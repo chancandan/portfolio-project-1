@@ -78,7 +78,7 @@ h1, h2 {
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
@@ -187,4 +187,25 @@ hr {
     background: url('../images/glimmering-macau.webp') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
