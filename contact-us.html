@@ -20,10 +20,10 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="contact-us.html">Contact Us</a>
+                    <a href="contact-us.html" class="active">Contact Us</a>
                 </li>
                 <li>
-                    <a href="gallery.html" class="active">Gallery</a>
+                    <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
                     <a href="index.html">Home</a>
@@ -32,18 +32,32 @@
         </nav>
     </header>
 
-    <section id="photos">
-        <img src="assets/images/old-town.jpg" alt="Busy city street in old part of city">
-        <img src="assets/images/casinos.webp" alt="Outside view of casino buildings">
-        <img src="assets/images/gondola-ride.jpg" alt="Gondola ride on a canal">
-        <img src="assets/images/old-versus-new-macau.jpg"
-            alt="Contrasting image of old aparatment buildings with a modern building in background">
-        <img src="assets/images/venetian-macau.jpeg" alt="Front view of the Venetian hotel resort">
-        <img src="assets/images/st-pauls.webp" alt="Ruins of St Paul's catheral">
-        <img src="assets/images/water-show.jpg" alt="Dancer performing in the water show">
-        <img src="assets/images/bungee.jpg" alt="A brave person jumping off the World's highest bungee jump">
-        <img src="assets/images/macau-senado-square.webp" alt="Arial view of Senado square in Macau">
-        <img src="assets/images/macau-tower.jpg" alt="Picture of Macau tower in the distance">
+    <section class="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Have a question for us?</h2>
+            
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input"id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            
+            <label for="hear-about">Where did you hear about us?</label><br>
+
+            <label for="road">Google</label>
+            <input  class="hear-about" type="radio" id="road" name="running_preference" value="road" required>
+
+            <label for="trail">Travel Magazine</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+
+            <label for="both">Word of mouth</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Send">
+        </form>
     </section>
 
     <footer>
