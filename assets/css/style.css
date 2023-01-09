@@ -212,7 +212,7 @@ footer {
 
 /* gallery */
 
-#photos {
+/* #photos {
     clear: both;
     line-height: 0;
     column-count: 4;
@@ -221,7 +221,58 @@ footer {
 
 #photos > img {
     width: 100%;
+} */
+
+.gallery-container {
+    clear: left;
+    display: flex;
+    max-width: 1200px;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    
+    
 }
+
+.gallery-container > img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    padding: 5px;
+
+    
+
+}
+
+    
+
+.gallery-container > img:hover {
+    /* cursor: pointer;
+    opacity: 0.5;
+    transition: 0.75s; */
+
+    /* animates zoom effect on loading page */
+
+    animation-name: gallery-container;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+    /* Creates the level of zoom for gallery images */
+@keyframes gallery-container {
+    from{
+        transform: scale(0.95);
+    }
+
+    to{
+        transform: scale(1.0);
+    }
+}
+
+
+
+
 
 /* Form */
 
@@ -240,6 +291,7 @@ footer {
     position: absolute;
     left: 10%;
     padding: 30px;
+    
 }
 
 .signup-form > h2 {
@@ -280,3 +332,23 @@ footer {
     background-color: #fafafa;
     color: #3a3a3a;
 }
+
+#body-contact {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
