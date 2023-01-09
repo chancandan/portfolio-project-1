@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +20,93 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.primary-icon {
+    height: 80px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 25px;
+    
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.ham-menu {
+    display: none;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: #3a3a3a;
+    margin-bottom: 4px;
+}
+
+@media all and (max-width: 570px) {
+    .navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+.navbar .container-icon {
+    width: 100%
+}
+
+.ham-menu {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+
+.nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+}
+
+.nav-list .list-item {
+    display: block;
+    border-top: 1px solid;
+}
+
+.primary-icon {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+}
+
+.active {
+    display: block;
 }
 
 #logo {
@@ -99,16 +187,16 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     
-    width: 300px;
-    height: 200px;
+    width: 375px;
+    height: 120px;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(17, 16, 37, 0.7);
 
-    bottom: 30px;
-    right: 150px;
+    top: 60px;
+    left: 165px;
 
     position: absolute;
 }
@@ -210,6 +298,8 @@ footer {
     color: #3a3a3a;
 }
 
+
+
 /* gallery */
 
 /* #photos {
@@ -248,21 +338,21 @@ footer {
     
 
 .gallery-container > img:hover {
-    /* cursor: pointer;
-    opacity: 0.5;
-    transition: 0.75s; */
+    cursor: pointer;
+    opacity: 0.75;
+    transition: 0.75s;
 
     /* animates zoom effect on loading page */
 
     animation-name: gallery-container;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
     /* Creates the level of zoom for gallery images */
 @keyframes gallery-container {
     from{
-        transform: scale(0.95);
+        transform: scale(0.9);
     }
 
     to{
@@ -280,11 +370,13 @@ footer {
     clear: left;
     background-size: cover;
     background-position: center;
+    
     height: 900px;
 }
 
 .signup-form {
     margin: 150px 10% 0 0;
+    
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;

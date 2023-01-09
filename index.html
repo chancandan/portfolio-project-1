@@ -13,24 +13,35 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">Visit Macau</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="contact-us.html">Contact Us</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
+    
+        <nav class="navbar">
+
+            <header>
+                <a href="index.html">
+                <img class="primary-icon" src="/assets/images/visit-macau-logo.webp"/>
+                </a>
+            </header>
+
+            <ul class="nav-list" id="navi-list">
+                <li class="list-item">
                     <a href="index.html" class="active">Home</a>
                 </li>
+                <li class="list-item">
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="list-item">
+                    <a href="contact-us.html">Contact Us</a>
+                </li>
+              
+                
             </ul>
+            <div class="ham-menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
         </nav>
-    </header>
+   
     <section id="hero-outer">
         <div id="hero-image"></div>
         <div id="cover-text">
@@ -109,5 +120,13 @@
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/6077b4841a.js" crossorigin="anonymous"></script>
 </body>
+<script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+    })
+</script>
 
 </html>
