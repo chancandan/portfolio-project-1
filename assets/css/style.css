@@ -187,16 +187,16 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     
-    width: 375px;
-    height: 120px;
+    width: 220px;
+    height: 180px;
 
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
 
     background-color: rgba(17, 16, 37, 0.7);
 
     top: 60px;
-    left: 165px;
+    left: 175px;
 
     position: absolute;
 }
@@ -366,6 +366,28 @@ footer {
 
 /* Form */
 
+/* new contact form code */
+
+#contact-body {
+background-image: url('../images/macau-river.jpg');
+width: 100%;
+height: 100vh;
+background-size: 100% 100vh;
+position: relative;
+background-repeat: no-repeat;
+
+}
+
+#contact-header {
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+}
+
+
+/* old contact form code */
 .form-section {
     clear: left;
     background-size: cover;
