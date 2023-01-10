@@ -201,9 +201,59 @@ h1, h2 {
     position: absolute;
 }
 
+/* main atrractions */
+
+.featured-heading {
+    padding: 100px 0;
+}
+
+.featured-heading h2 {
+    text-align: center;
+}
+
+.attract-icons {
+    padding-bottom: 15px;
+}
+
+/* Boxes */
+.boxes {
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box > img {
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+.box p {
+    padding-top: 10px;
+}
+
+/* Info */
+
+/* .info {
+    background: white;
+    box-shadow: #3a3a3a;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+} */
+
+  
+
 /* information */
 
-#attracts {
+/* #attracts {
     height: 600px;
 }
 
@@ -275,7 +325,7 @@ hr {
     background: url('../images/glimmering-macau.webp') no-repeat center center;
     height: 100%;
     border-radius: 50%;
-}
+} */
 
 /* footer */
 
@@ -330,9 +380,6 @@ footer {
     height: 250px;
     object-fit: cover;
     padding: 5px;
-
-    
-
 }
 
     
