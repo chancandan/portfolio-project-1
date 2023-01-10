@@ -232,6 +232,11 @@ h1, h2 {
 .box > img {
     max-width: 100%;
     padding-top: 20px;
+    height: 280px;
+}
+
+.box > h3 {
+    padding-top: 20px;
 }
 
 .box p {
