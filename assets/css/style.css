@@ -212,7 +212,7 @@ h1, h2 {
 }
 
 .attract-icons {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 /* Boxes */
@@ -231,12 +231,12 @@ h1, h2 {
 
 .box > img {
     max-width: 100%;
-    padding-top: 20px;
+    padding-top: 30px;
     height: 280px;
 }
 
 .box > h3 {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .box p {
@@ -513,4 +513,14 @@ footer {
     height: 100%;
     width: 100%;
     border: none;
+}
+
+/* Media queries */
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #cover-text {
+        left: 0;
+    }
 }
