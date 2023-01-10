@@ -379,8 +379,8 @@ footer {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(89, 77, 121, 0.4);
-    /* background-color: rgba(60, 60, 60, 0.6); */
+    /* background-color: rgba(53, 46, 75, 0.4); */
+    background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
     position: absolute;
     right: 10%;
@@ -445,4 +445,20 @@ footer {
 
 
 
+/* Features section */
 
+
+
+
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 55px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
