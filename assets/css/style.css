@@ -191,6 +191,7 @@ h1, h2 {
 }
 
 /* Boxes */
+
 .boxes {
     margin-top: 5px;
     display: grid;
@@ -207,7 +208,7 @@ h1, h2 {
 .box > img {
     max-width: 100%;
     padding-top: 30px;
-    height: 280px;
+    height: auto;
 }
 
 .box > h3 {
@@ -226,6 +227,7 @@ h1, h2 {
 
 #video-2 {
     padding-top: 25px;
+    margin-bottom: 50px;
 }
 
 /* hr */
