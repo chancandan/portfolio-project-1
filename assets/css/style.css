@@ -417,13 +417,15 @@ footer {
 
 /* 404 Page */
 
-.page404 {
-    clear: left;
-    border: solid 2px white;
+.section-404 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; /* adjust this to the desired height */
+}
+
+.page-404 {
+    clear: left;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -432,9 +434,10 @@ footer {
     background-repeat: no-repeat;
 }
 
-.section404 {
+.content-404 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; /* adjust this to the desired height */
+    border: solid 2px white;
 }
