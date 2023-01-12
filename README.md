@@ -48,3 +48,17 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
     * Carefully selected images of each attraction that markets an emotion in the user, e.g. the blue sky in the St Paul's ruins image.
 
 ![Attractions](docs/readme_images/featured_attractions.JPG)
+
+* Contact us form
+    * A contact  form will be implemented to allow users to contact the site. The form will consist of the following fields and attributes: 
+        * First Name (required, type=text)
+        * Last Name (required, type=text)
+        * Email (required, type=email)
+        * Radio (required, type=radio)
+        * Message (required, type=textarea)
+    * Having successfully filled out all required fields and clicking the submit button on the contact form, a 'Thank You' message will appear as the user will be navigated to a thank-you.html page that will resemble the contact us page.
+    * This form will allow the user to contact Visit Macau if they have any further questions or require any more information. 
+
+![Contact Form](docs/readme_images/contact_us_form.JPG)
+
+![Thank You Message](docs/readme_images/thank_you.JPG)
