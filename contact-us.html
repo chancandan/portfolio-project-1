@@ -12,19 +12,20 @@
     <title>Visit Macau</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-<link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 
 <body>
     <header>
 
         <nav class="navbar">
-                <a href="index.html">
-                    <img class="primary-icon" src="assets/images/visit-macau-logo.webp" alt="Illustrated logo featuring Macau's skyline"/>
-                </a>
-           
+            <a href="index.html">
+                <img class="primary-icon" src="assets/images/visit-macau-logo.webp"
+                    alt="Illustrated logo featuring Macau's skyline" />
+            </a>
+
 
             <ul class="nav-list" id="navi-list">
                 <li class="list-item">
@@ -36,8 +37,8 @@
                 <li class="list-item">
                     <a href="contact-us.html" class="active">Contact Us</a>
                 </li>
-              
-                
+
+
             </ul>
             <div class="ham-menu" id="toggle-button">
                 <div class="menu-line"></div>
@@ -47,69 +48,73 @@
         </nav>
     </header>
 
-    
-<main>
-    <section class="form-section">
-        <form class="signup-form" method="GET" action="thank-you.html" class="signup-form">
-            <h2>Have a question for us?</h2>
 
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
+    <main>
+        <section class="form-section">
+            <form class="signup-form" method="GET" action="thank-you.html" class="signup-form">
+                <h2>Have a question for us?</h2>
 
-            <label for="lname">Last Name</label>
-            <input class="text-input" id="lname" name="last_name" type="text" required>
+                <label for="fname">First Name</label>
+                <input class="text-input" id="fname" name="first_name" type="text" required>
 
-            <label for="email">Email Address</label>
-            <input class="text-input" type="email" id="email" name="email_address" required>
+                <label for="lname">Last Name</label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
 
-            <label for="hear-about">Where did you hear about us?</label><br>
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
 
-            <label for="road">Google</label>
-            <input class="hear-about" type="radio" id="road" name="running_preference" value="road" required>
+                <label for="hear-about">Where did you hear about us?</label><br>
 
-            <label for="trail">Travel Magazine</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
+                <label for="road">Google</label>
+                <input class="hear-about" type="radio" id="road" name="running_preference" value="road" required>
 
-            <label for="other">Other</label>
-            <input type="radio" id="other" name="running_preference" value="both" required>
+                <label for="trail">Travel Magazine</label>
+                <input type="radio" id="trail" name="running_preference" value="trail" required>
 
-            <input class="join-button" type="submit" value="Send">
-        </form>
-    </section>
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="running_preference" value="both" required>
 
-    <section id="map-wrapper">
-        <iframe id="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=335%20Alameda%20Dr.%20Carlos%20d'Assumpcao,%20Macao+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-      </section>
+                <label for="question">Ask us anything</label>
+                <textarea class="text-input" id="question" name="question"></textarea>
 
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i
-                        class="fa-brands fa-square-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i
-                        class="fa-brands fa-square-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i
-                        class="fa-brands fa-square-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
+                <input class="join-button" type="submit" value="Send">
+            </form>
+        </section>
 
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/6077b4841a.js" crossorigin="anonymous"></script>
+        <section id="map-wrapper">
+            <iframe id="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=335%20Alameda%20Dr.%20Carlos%20d'Assumpcao,%20Macao+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </section>
 
-</main>
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i
+                            class="fa-brands fa-square-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)"><i
+                            class="fa-brands fa-square-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- font awesome script -->
+        <script src="https://kit.fontawesome.com/6077b4841a.js" crossorigin="anonymous"></script>
+
+    </main>
 </body>
 
 <script>
