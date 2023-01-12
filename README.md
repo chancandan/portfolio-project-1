@@ -12,6 +12,7 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
     * Contains links to the Home, Gallery and Contact US pages and will be responsive on all devices.
     * This will allow users to easily navigate between the pages within the site on any size device. 
 ![Navigation Bar](docs/readme_images/naivgation_bar.JPG)
+
     * Design changes to a hamburger menu for mobile users on a smaller screen. 
     * Once clicked by the user it will displays the 3 different link options in a verical column.
 ![Hamburger Column](docs/readme_images/hamburger_column.JPG) 
@@ -20,16 +21,17 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
     * These various social media links will allow the user to follow Visit Macau's social channels where they can get more up to date information where available and interact with other users or fans of the site.
 
 ![Footer](docs/readme_images/footer.JPG)
-* Favicon
-    * A site wide favicon will be implemented with the Hair O' The Dog clubs emblem.
-    * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
-
-![Favicon](docs/readme_images/favicon.JPG)
 * 404 Page
-    * A 404 page will be implemented and will display if a user navigates to a broken link.
-    * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button.
+    * An error 404 page will be implemented and will display if a user navigates to a broken link.
+    * Here, the 404 page will allow the user to a choice to report the broken link or problem by linking back to the contact page or if the user simply wants to contuining browsing on the site they have the option to easily navigate back to the homepage without having to think about using the browsers back button. The option to stay on the site will be offered in an easy manner.
 
-![404](docs/readme_images/404_page.JPG)
+![404](docs/readme_images/404_image.JPG)
+* Favicon
+    * An image of Macau's famous white lotus flower will be implemented site wide as a favicon.
+    * For users who have a lot of tabs open in their browser this will make locating the Visit Macau page much easier and will help to make it stand out against some sites which don't include this feature.
+
+![Favicon](docs/readme_images/visit_macau_favicon.JPG)
+
 
 ### Landing Page
 * Landing page image

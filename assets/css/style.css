@@ -327,7 +327,7 @@ footer {
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 0 0;
     color: #fff;
     /* background-color: rgba(53, 46, 75, 0.4); */
     background-color: rgba(60, 60, 60, 0.6);
@@ -395,6 +395,8 @@ footer {
 textarea.text-input {
     height: 100px;
     resize: none;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 /* map */
