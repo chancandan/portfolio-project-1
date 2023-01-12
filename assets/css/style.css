@@ -418,6 +418,7 @@ footer {
 /* 404 Page */
 
 .error-page {
+    clear: left;
     position: absolute;
     top: 10%;
     left:17%;
