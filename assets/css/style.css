@@ -352,6 +352,10 @@ footer {
     border-radius: 2px;
 }
 
+.text-input::placeholder {
+    color: #fafafa;
+}
+
 .text-input:hover {
     border-color: #3a3a3a;
 }

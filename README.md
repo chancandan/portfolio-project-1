@@ -59,19 +59,14 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
 
 ![Embedded Videos](docs/readme_images/why_choose_macau.JPG)
 
+### Gallery Page
+* Gallery
+    * Once navigating to the gallery page the user can view different images of Macau on their screens which have interactive effects once the user hover their cursor over them on desktop.
+    * Each image is of a high quality and carefully selected to market6 Macau to the user ina  positive light. The gallery is responsive and it will allow the user to view the content in an eye-catching way on any device. 
 
+![Gallery](docs/readme_images/gallery.JPG)
 
-
-
-
-
-
-
-
-
-
-
-
+### Contact Us Page
 * Contact us form
     * A contact  form will be implemented to allow users to contact the site. The form will consist of the following fields and attributes: 
         * First Name (required, type=text)
@@ -85,3 +80,45 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
 ![Contact Form](docs/readme_images/contact_us_form.JPG)
 
 ![Thank You Message](docs/readme_images/thank_you.JPG)
+
+### Existing Features
+
+* Responsive design
+* 4 featured attractions
+* Interactive google map
+* Hero image with zoom transition
+* Contact form and thank you / success page
+* 2 videos for users to interact with via playback functions
+* Responsive gallery with zoom and opacitiy transitions on hovering
+
+
+
+### Features Left to Implement
+
+* Hotels information section
+
+* I'd also like for my contact form to actually submit the information to the domain or to a point of data collection. 
+
+
+
+## Design
+
+### Wireframes
+<br>
+Landing page
+<br><br>
+
+![Home Page large screen](docs/readme_images/home_wireframe.JPG)
+
+![Home Page small screen](docs/readme_images/home_mobile_wireframe.JPG)
+<br><br>
+Contact form successful submission page.
+<br><br>
+![Contact form submission success](docs/readme_images/contact_wireframe.JPG)
+
+![Contact form submission success](docs/readme_images/contact_mobile_wireframe.JPG)
+
+
+Adventures page
+<br><br>
+![Adventures page large screen](docs/readme_images/adventures_wireframe.JPG)
