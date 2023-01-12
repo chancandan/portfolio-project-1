@@ -128,6 +128,21 @@ Contact US form successful submission thank you page.
 ![Contact form submission success](docs/readme_images/contact_mobile_wireframe.JPG)
 
 
-Adventures page
-<br><br>
-![Adventures page large screen](docs/readme_images/adventures_wireframe.JPG)
+## Technologies
+
+* HTML5
+    * The structure of the Website was developed using HTML5 as the main language.
+* CSS3
+    * The Website was styled using custom CSS3 in an external file.
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+* Font Awesome
+    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section and also for the icons above the featured attractions section on the main page. 
+* Tinyjpg
+    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+* Favicon.io
+    * favicon files were created at https://favicon.io/favicon-converter/ 
+* balsamiq
+    * wireframes were created using balsamiq from https://balsamiq.com/wireframes
