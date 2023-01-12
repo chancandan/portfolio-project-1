@@ -417,7 +417,8 @@ footer {
 
 /* 404 Page */
 
-.section-404 {
+.page-404 {
+    clear: left;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -426,28 +427,11 @@ footer {
     background-repeat: no-repeat;
 }
 
-.page-404 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* adjust this to the desired height */
-    margin: 0 auto;
-   
-}
-
 .content-404 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* adjust this to the desired height */
-    margin: 0 auto;
-    border: solid 2px #fff;
-    width: 450px;
-    height: 250px;
-}
-
-.content-404 h1, .content-404 h2 {
+    height: 100vh; /* adjust this to the desired height */ 
+    border: solid 2px #fafafa;
     color: #fff;
-    padding: 10px;
-    margin: 0 auto;
 }
