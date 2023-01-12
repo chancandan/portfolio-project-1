@@ -110,7 +110,7 @@ Landing / Home page
 
 ![Home Page large screen](docs/readme_images/first_homepage_wireframe.png)
 
-![Home Page small screen](docs/readme_images/home_mobile_wireframe.JPG)
+![Home Page small screen](docs/readme_images/home_mobile_wireframe.png)
 <br><br>
 Contact form successful submission page.
 <br><br>

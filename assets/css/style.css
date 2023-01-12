@@ -353,6 +353,7 @@ footer {
 }
 
 .text-input::placeholder {
+    font-family: Open Sans, sans-serif;
     color: #fafafa;
 }
 
