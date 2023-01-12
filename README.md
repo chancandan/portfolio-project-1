@@ -144,5 +144,38 @@ Contact US form successful submission thank you page.
     * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 * Favicon.io
     * favicon files were created at https://favicon.io/favicon-converter/ 
-* balsamiq
+* Balsamiq
     * wireframes were created using balsamiq from https://balsamiq.com/wireframes
+
+    ## Testing 
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+
+Steps to test:
+
+1. Open browser and navigate to [Visit Macau](https://chancandan.github.io/portfolio-project-1/index.html)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
+
+Actual:
+
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#Unfixed-Bugs)
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+- Oyyyyyyyy1 Pro
+- Tyyyyyyyyyyyyyyyyyy
+- iPhone SE
+- Samsung Galayyyyyyyyyyyyyyyyyy
+
+### Accessibility
