@@ -484,7 +484,7 @@ color: #fff;
 background:rgba(60, 60, 60, 0.6);
 }
     
-/* Footer */
+/* Error Page Footer */
 
 .error-footer {
     position: absolute;
@@ -508,8 +508,10 @@ background:rgba(60, 60, 60, 0.6);
     color: #3a3a3a;
 }
 
+/* Error Page hr */
+
 hr.error-hr {
-    position: relative;
+    margin-top: 20px;
     overflow: visible; /* For IE */
     padding: 0;
     border: none;
