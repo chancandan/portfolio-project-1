@@ -418,20 +418,21 @@ footer {
 /* 404 Page */
 
 .section-404 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* adjust this to the desired height */
-}
-
-.page-404 {
-    clear: left;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 800px;
     background-image: url('../images/girl-st-pauls.jpg');
     background-repeat: no-repeat;
+}
+
+.page-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* adjust this to the desired height */
+    clear: left;
+   
 }
 
 .content-404 {
