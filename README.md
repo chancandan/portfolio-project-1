@@ -108,7 +108,7 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
 Landing page
 <br><br>
 
-![Home Page large screen](docs/readme_images/home_wireframe.JPG)
+![Home Page large screen](docs/readme_images/first_homepage_wireframe.JPG)
 
 ![Home Page small screen](docs/readme_images/home_mobile_wireframe.JPG)
 <br><br>
