@@ -484,3 +484,26 @@ color: #fff;
 background:rgba(60, 60, 60, 0.6);
 }
     
+/* Footer */
+
+.error-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}

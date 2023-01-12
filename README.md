@@ -17,7 +17,7 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
 ![Hamburger Column](docs/readme_images/hamburger_column.JPG) 
 * Footer
     * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
-    * This will allow the user to follow 'Taco' on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact 'Taco' directly.
+    * These various social media links will allow the user to follow Visit Macau's social channels where they can get more up to date information where available and interact with other users or fans of the site.
 
 ![Footer](docs/readme_images/footer.JPG)
 * Favicon
