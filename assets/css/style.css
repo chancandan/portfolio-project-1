@@ -112,6 +112,7 @@ h1, h2 {
 
 .active {
     display: block;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 #logo {
@@ -126,7 +127,6 @@ h1, h2 {
     height: 660px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
