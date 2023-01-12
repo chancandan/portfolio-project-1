@@ -509,9 +509,7 @@ background:rgba(60, 60, 60, 0.6);
 }
 
 hr.error-hr {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    position: relative;
     overflow: visible; /* For IE */
     padding: 0;
     border: none;
