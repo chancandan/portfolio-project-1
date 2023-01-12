@@ -439,5 +439,10 @@ footer {
     align-items: center;
     justify-content: center;
     height: 100vh; /* adjust this to the desired height */
-    border: solid 2px white;
+}
+
+.content-404 h1, .content-404 h2 {
+    color: #fff;
+    border: solid 2px #fff;
+    padding: 10px;
 }
