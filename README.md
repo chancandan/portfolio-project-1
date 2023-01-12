@@ -111,6 +111,15 @@ Landing / Home page
 ![Home Page large screen](docs/readme_images/first_homepage_wireframe.png)
 
 ![Home Page small screen](docs/readme_images/home_mobile_wireframe.png)
+<br>
+Gallery page
+<br><br>
+
+![Gallery page large screen](docs/readme_images/gallery_large_screen_wireframe.png)
+
+![Gallery page tablet screen](docs/readme_images/gallery_tablet_wireframe.png)
+
+![Gallery page small screen](docs/readme_images/home_mobile_wireframe.png)
 <br><br>
 Contact US form successful submission thank you page.
 <br><br>
