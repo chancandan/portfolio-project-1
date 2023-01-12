@@ -112,9 +112,9 @@ Landing / Home page
 
 ![Home Page small screen](docs/readme_images/home_mobile_wireframe.png)
 <br><br>
-Contact form successful submission page.
+Contact US form successful submission thank you page.
 <br><br>
-![Contact form submission success](docs/readme_images/contact_wireframe.JPG)
+![Contact Us form submission thank you success](docs/readme_images/contact_us_wireframe.png)
 
 ![Contact form submission success](docs/readme_images/contact_mobile_wireframe.JPG)
 
