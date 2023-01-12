@@ -417,11 +417,23 @@ footer {
 
 /* 404 Page */
 
-.page-404 {
-    
-}
+#box-404 {
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 17%;
+    height: 200px;
+    margin-bottom: 1em;
+    background-image: url('../images/girl-st-pauls.jpg');
+    background-repeat: no-repeat;
+  }
 
-.content-404 {
+  .content-404 {
+    border: 2px solid #fafafa;
+  }
+
+/* .content-404 {
     clear: left;
     background-size: cover;
     background-position: center;
@@ -433,6 +445,6 @@ footer {
     align-items: center;
     justify-content: center;
     height: 100vh; /* adjust this to the desired height */ 
-    border: solid 2px #fafafa;
+    /* border: 2px solid #fafafa;
     color: #fff;
-}
+} */ */

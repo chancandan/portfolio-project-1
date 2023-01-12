@@ -12,8 +12,7 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
     * Contains links to the Home, Gallery and Contact US pages and will be responsive on all devices.
     * This will allow users to easily navigate between the pages within the site on any size device. 
 ![Navigation Bar](docs/readme_images/naivgation_bar.JPG)
-    * Design changes to a hamburger menu for mobile users on a smaller screen.
-![Hamburger Menu](docs/readme_images/hamburger.JPG) 
+    * Design changes to a hamburger menu for mobile users on a smaller screen. 
     * Once clicked by the user it will displays the 3 different link options in a verical column.
 ![Hamburger Column](docs/readme_images/hamburger_column.JPG) 
 * Footer
