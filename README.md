@@ -49,6 +49,29 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
 
 ![Attractions](docs/readme_images/featured_attractions.JPG)
 
+* Section breaker
+    * The use of a <hr> element with a section symbol to break the featured attractions section from the next section of the informational videos.
+
+![Section breaker](docs/readme_images/hr_section_break.JPG)
+
+* Why Choose Macau?
+    * The implementation of embedded Youtube videos via the use of iframes to market Macau as a destination to visit and to give the user a better understanding of what kind of a place Macau is with the images they'll see in the videos.
+
+![Embedded Videos](docs/readme_images/why_choose_macau.JPG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * Contact us form
     * A contact  form will be implemented to allow users to contact the site. The form will consist of the following fields and attributes: 
         * First Name (required, type=text)
