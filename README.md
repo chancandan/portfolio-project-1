@@ -125,7 +125,6 @@ Contact US form successful submission thank you page.
 <br><br>
 ![Contact Us form submission thank you success](docs/readme_images/contact_us_wireframe.png)
 
-![Contact form submission success](docs/readme_images/contact_mobile_wireframe.JPG)
 
 
 ## Technologies
@@ -183,7 +182,12 @@ Website was also opened on the following devices and no responsive issues were p
 
 ### Accessibility
 
+The site was tested with the tool [Wave Accessibility](https://wave.webaim.org/) for final testing o to check for any aid accessibility errors and none were present, although I did take note throughout the site's development to keep on top of this aspect, as I knew it weighed heavily on this first project. I scored well on accessibility in Lighthouse also when testing the site with that tool.
 
+Testing was focused to ensure the following criteria were met:
+
+- An English lang attribute was set.
+- Any image used on site had an alt tag attached with descriptive text for users requiring screen readers to access the site.
 
 
 
