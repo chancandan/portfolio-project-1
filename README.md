@@ -180,6 +180,27 @@ Website was also opened on the following devices and no responsive issues were p
 - iPad (6th Generation)
 - MacBook Air
 
+## Lighthouse
+
+Visit Macau was taken through Google Chrome's Lighthouse testing.
+
+![Lighthouse scores for History Page](readme-imgs/lh01.JPG)
+
+![Lighthouse scores for Gallery Page](docs/readme_images/lighthouse_gallery.JPG)
+
+![Lighthouse scores for Index Page](readme-imgs/lh03.JPG)
+
+![Lighthouse scores for Contact Page](readme-imgs/lh04.JPG)
+
+I did run random Lighthouse tests at several points throughout the development of the project, however the images above are of the final scores for the site.
+
+Lighthouse recommended converting images to different formats and also resizing images if their actual size wasn't required. After ahereing to these changes the site's performance improved. An example below of a lower score I had before some changes.
+
+![Old lighthouse scores for index Page](docs/readme_images/best_practice.JPG)
+
+Another example below of an old Gallery Page Lighthouse score where the mobile score on 
+
+
 ### Accessibility
 
 The site was tested with the tool [Wave Accessibility](https://wave.webaim.org/) for final testing o to check for any aid accessibility errors and none were present, although I did take note throughout the site's development to keep on top of this aspect, as I knew it weighed heavily on this first project. I scored well on accessibility in Lighthouse also when testing the site with that tool.
