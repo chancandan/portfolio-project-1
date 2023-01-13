@@ -211,6 +211,27 @@ Bugs were found along the way and correct, as well as countless errors which wer
 ![Heading bug fix](docs/readme_images//heading_bug_fix.JPG)
 
 ### Unfixed Bugs
-Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+Responsiveness of the website worked on all devices, screen sizes and orientation. No further bugs have been found or left unresolved at this stage.
 
 ## Deployment
+
+### Version Control
+
+During the development of the site, When pushing code to the remote repository, I used the following git commands 
+
+```git add .``` - All files added to a staging area awaiting the commit phase.
+
+```git commit -m “specific commit message”``` - To commit changes to the local repository queue where they become ready for the push phase.
+
+```git push``` - All commited code would be then pushed to the site's repo on github.
+
+### Deployment to Github Pages
+
+- The Visit Macau site site was deployed to GitHub pages. The following steps were taken when deploying: 
+  - Navigate to the Settings tab in the GitHub repository 
+  - Select 'Pages' from the menu on the left of the screen
+  - Select the 'Branch: main' option from the drop-down menu in the source section
+  - Then click 'Save'
+  - After a short wait a live link will be appear in a green banner when published successfully. 
+
+Visit Macau's live link can be found here - https://chancandan.github.io/portfolio-project-1/index.html
