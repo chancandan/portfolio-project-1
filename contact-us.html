@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Visit Macau information, attractions and accommodation">
     <meta name="keywords" content="visit macau, travel, macau hotels, macau, china, asia, portugal">
-
+    <meta name="author" content="Daniel Lyons">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Visit Macau - Contact Us</title>
-
+    <!-- required links to display favicon in browser tabs -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -21,8 +21,10 @@
     <header>
 
         <nav class="navbar">
+            <!-- Visit Macau logo as a clickable link back to the home page from any other page on the website-->
             <a href="index.html">
-                <img class="primary-icon" src="assets/images/visit-macau-logo.webp" alt="Illustrated logo featuring Macau's skyline">
+                <img class="primary-icon" src="assets/images/visit-macau-logo.webp"
+                    alt="Illustrated logo featuring Macau's skyline">
             </a>
 
 
@@ -50,20 +52,25 @@
 
     <main>
         <section class="form-section">
+            <!-- A Contact Us form whereby all fields are required to obtain desired information on any queries from users -->
             <form class="signup-form" method="GET" action="thank-you.html">
                 <h2>Have a question for us?</h2>
 
                 <label for="fname">First Name</label>
-                <input class="text-input" id="fname" name="first_name" type="text" placeholder="Enter your first name" required>
+                <input class="text-input" id="fname" name="first_name" type="text" placeholder="Enter your first name"
+                    required>
 
                 <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" name="last_name" type="text" placeholder="Enter your last name" required>
+                <input class="text-input" id="lname" name="last_name" type="text" placeholder="Enter your last name"
+                    required>
 
                 <label for="email">Email Address</label>
-                <input class="text-input" type="email" id="email" name="email_address" placeholder="Enter your email address" required>
+                <input class="text-input" type="email" id="email" name="email_address"
+                    placeholder="Enter your email address" required>
 
                 <label for="question">Ask us anything</label>
-                <textarea class="text-input" id="question" name="question" placeholder="Write your message here..." required></textarea>
+                <textarea class="text-input" id="question" name="question" placeholder="Write your message here..."
+                    required></textarea>
 
                 <p>Where did you hear about us?</p><br>
 
@@ -82,11 +89,13 @@
 
         <section class="map-heading">
             <h2>Find us at:</h2>
-            <iframe id="map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=335%20Alameda%20Dr.%20Carlos%20d'Assumpcao,%20Macao+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-        
-    </section>
+            <iframe id="map"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=335%20Alameda%20Dr.%20Carlos%20d'Assumpcao,%20Macao+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+        </section>
 
         <footer>
+            <!-- All icons are clickable links which will take the user to the new site but in a new window, as to keep Visit Macau still open in their broswer  -->
             <ul class="social-networks">
                 <li>
                     <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -115,10 +124,11 @@
         <script src="https://kit.fontawesome.com/6077b4841a.js" crossorigin="anonymous"></script>
 
     </main>
+    <!-- Hamburger menu script, credit https://medium.com/@codefoxx/how-to-create-a-responsive-hamburger-menu-with-html-css-javascript-4dc10a45d3 and stackoverflow  -->
     <script>
         const toggleButton = document.getElementById('toggle-button');
         const naviList = document.getElementById('navi-list');
-    
+
         toggleButton.addEventListener('click', () => {
             naviList.classList.toggle('active');
         })

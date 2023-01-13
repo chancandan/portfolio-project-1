@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Visit Macau information, attractions and accommodation">
     <meta name="keywords" content="visit macau, travel, macau hotels, macau, china, asia, portugal">
-
+    <meta name="author" content="Daniel Lyons">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Thank you for submitting - Visit Macau</title>
-
+    <!-- required links to display favicon in browser tabs -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -19,10 +19,11 @@
 
 <body>
     <header>
-
         <nav class="navbar">
+            <!-- Visit Macau logo as a clickable link back to the home page from any other page on the website-->
             <a href="index.html">
-                <img class="primary-icon" src="assets/images/visit-macau-logo.webp" alt="Illustrated logo featuring Macau's skyline">
+                <img class="primary-icon" src="assets/images/visit-macau-logo.webp"
+                    alt="Illustrated logo featuring Macau's skyline">
             </a>
 
 
@@ -52,21 +53,22 @@
         <section class="form-section">
             <form class="signup-form" method="GET" action="thank-you.html">
                 <h2><br>
-                    Thank you. 
-                <br>
-                <br>
-We have received your message and will be in touch with you soon.<br>
-            </h2>
-                
+                    Thank you.
+                    <br>
+                    <br>
+                    We have received your message and will be in touch with you soon.<br>
+                </h2>
 
-                
 
-                
-               
+
+
+
+
             </form>
         </section>
 
         <footer>
+            <!-- All icons are clickable links which will take the user to the new site but in a new window, as to keep Visit Macau still open in their broswer  -->
             <ul class="social-networks">
                 <li>
                     <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -95,10 +97,11 @@ We have received your message and will be in touch with you soon.<br>
         <script src="https://kit.fontawesome.com/6077b4841a.js" crossorigin="anonymous"></script>
 
     </main>
+    <!-- Hamburger menu script, credit https://medium.com/@codefoxx/how-to-create-a-responsive-hamburger-menu-with-html-css-javascript-4dc10a45d3 and stackoverflow  -->
     <script>
         const toggleButton = document.getElementById('toggle-button');
         const naviList = document.getElementById('navi-list');
-    
+
         toggleButton.addEventListener('click', () => {
             naviList.classList.toggle('active');
         })

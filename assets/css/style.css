@@ -15,7 +15,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -43,7 +44,7 @@ h1, h2 {
     text-align: right;
     padding-top: 10px;
     margin-right: 25px;
-    
+
 }
 
 .nav-list .list-item {
@@ -85,40 +86,34 @@ h1, h2 {
         position: relative;
     }
 
-.navbar .container-icon {
-    width: 100%
-}
+    .navbar .container-icon {
+        width: 100%
+    }
 
-.ham-menu {
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 35px;
-}
+    .ham-menu {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 35px;
+    }
 
-.nav-list {
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-    display: none;
-}
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+    }
 
-.nav-list .list-item {
-    display: block;
-    border-top: 1px solid;
-}
+    .nav-list .list-item {
+        display: block;
+        border-top: 1px solid;
+    }
 }
 
 .active {
     display: block;
     border-bottom: 1px solid #3a3a3a;
-}
-
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
 }
 
 /* hero image  and cover text*/
@@ -130,7 +125,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -147,11 +143,11 @@ h1, h2 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
 
-    to{
+    to {
         transform: scale(1.05);
     }
 }
@@ -161,7 +157,7 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
+
     width: 320px;
     height: 120px;
 
@@ -205,13 +201,13 @@ h1, h2 {
     box-shadow: var(--shadow);
 }
 
-.box > img {
+.box>img {
     max-width: 100%;
     padding-top: 30px;
     height: auto;
 }
 
-.box > h3 {
+.box>h3 {
     padding-top: 30px;
 }
 
@@ -234,13 +230,14 @@ h1, h2 {
 /* hr */
 
 hr.attracts-hr {
-    overflow: visible; /* For IE */
+    overflow: visible;
     padding: 0;
     border: none;
     border-top: medium double #333;
     color: #333;
     text-align: center;
 }
+
 hr.attracts-hr:after {
     content: "§";
     display: inline-block;
@@ -261,7 +258,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -278,20 +275,20 @@ footer {
     clear: left;
     display: flex;
     max-width: 1200px;
-    width:100%;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
 
-.gallery-container > img {
+.gallery-container>img {
     width: 350px;
     height: 250px;
     object-fit: cover;
     padding: 5px;
 }
 
-.gallery-container > img:hover {
+.gallery-container>img:hover {
     cursor: pointer;
     opacity: 0.75;
     transition: 0.75s;
@@ -303,13 +300,13 @@ footer {
     animation-fill-mode: forwards;
 }
 
-    /* Creates the level of zoom for gallery images */
+/* Creates the level of zoom for gallery images */
 @keyframes gallery-container {
-    from{
+    from {
         transform: scale(0.9);
     }
 
-    to{
+    to {
         transform: scale(1.0);
     }
 }
@@ -337,7 +334,7 @@ footer {
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -442,7 +439,7 @@ textarea::placeholder {
     clear: left;
     position: absolute;
     top: 10%;
-    left:17%;
+    left: 17%;
     right: 17%;
     bottom: 20%;
     display: flex;
@@ -466,6 +463,7 @@ textarea::placeholder {
     font-size: 14vw;
     line-height: 1em;
 }
+
 .content h4 {
     font-size: 1.5em;
     margin-bottom: 20px;
@@ -498,13 +496,11 @@ textarea::placeholder {
     transition: all 0.3s ease;
 }
 
-
-
 .content .btns a:hover {
-color: #fff;
-background:rgba(60, 60, 60, 0.6);
+    color: #fff;
+    background: rgba(60, 60, 60, 0.6);
 }
-    
+
 /* Error Page Footer */
 
 .error-footer {
@@ -518,7 +514,7 @@ background:rgba(60, 60, 60, 0.6);
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 

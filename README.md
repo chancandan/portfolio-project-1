@@ -150,7 +150,7 @@ Contact US form successful submission thank you page.
 
 ### Responsiveness
 
-All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Google Chrome, MicrosoftEdge, Mozilla Firefox and Safari.
 
 Steps to test:
 
@@ -218,6 +218,10 @@ Bugs were found along the way and correct, as well as countless errors which wer
 
 ![Heading bug fix](docs/readme_images//heading_bug_fix.JPG)
 
+- Bugs were in the form section of the contact page where I hadn't correctly linked 'for' and 'id' attributes together for the radio button part of the form. This was easily enough to fix once my attention was drawn to the bug.
+
+- I had erros and bugs  in the javascript part of my code for the hamburger menu toggle function. This caused a panic in me as we had not yet learned Javascript as part of the course and this was an extra feature that I went off and tried to learn to implement myself. It took me a couple of hours of troubleshooting and I thought I might have to remove the hamburger menu altogether which I wanted to try to avoid as I think it's a lovely feature for mobile users of the site. Then the penny dropped and I realised I'd put that section of code between the closing body element and the closing html element. All I had to do to fix this problem was simply move this section of code up above the closing body element tag. 
+
 ### Unfixed Bugs
 Responsiveness of the website worked on all devices, screen sizes and orientation. No further bugs have been found or left unresolved at this stage.
 
@@ -280,7 +284,7 @@ A variety of contributors and help went into the development this website:
 - The code for the iframe map was from Coder's Coffeehouse by Code Institute
 - My 404 page was based on Youtube tutorial by @CodingNepal
 - The idea for a Thank You for submitting page was a suggestion from my mentor, Gareth McGirr
-- The hamburger menu javascript code was taken from Stackoverflox.com
+- The hamburger menu javascript code was pieces together from tutorials from https://medium.com/@codefoxx/how-to-create-a-responsive-hamburger-menu-with-html-css-javascript-4dc10a45d3 and reading different various Stackoverflox.com questions and answers.
 
 
 ### Media
