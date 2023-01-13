@@ -50,7 +50,7 @@ Visit Macau is a travel website providing information to users on the S.A.R. reg
 ![Attractions](docs/readme_images/featured_attractions.JPG)
 
 * Section breaker
-    * The use of a <hr> element with a section symbol to break the featured attractions section from the next section of the informational videos.
+    * The use of a hr element with a section symbol to break the featured attractions section from the next section of the informational videos.
 
 ![Section breaker](docs/readme_images/hr_section_break.JPG)
 
