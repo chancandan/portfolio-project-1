@@ -184,15 +184,13 @@ Website was also opened on the following devices and no responsive issues were p
 
 Visit Macau was taken through Google Chrome's Lighthouse testing.
 
-![Lighthouse scores for History Page](readme-imgs/lh01.JPG)
+![Lighthouse scores for Index Page](docs/readme_images/lighthouse_index.JPG)
 
 ![Lighthouse scores for Gallery Page](docs/readme_images/lighthouse_gallery.JPG)
 
-![Lighthouse scores for Index Page](readme-imgs/lh03.JPG)
+![Lighthouse scores for Contact Page](docs/readme_images/lighthouse_contact_us.JPG)
 
-![Lighthouse scores for Contact Page](readme-imgs/lh04.JPG)
-
-I did run random Lighthouse tests at several points throughout the development of the project, however the images above are of the final scores for the site.
+I did run random Lighthouse tests at several points throughout the development of the project, both for desktop and mobile devices, however the images above are of the final scores for the site.
 
 Lighthouse recommended converting images to different formats and also resizing images if their actual size wasn't required. After ahereing to these changes the site's performance improved. An example below of a lower score I had before some changes.
 
