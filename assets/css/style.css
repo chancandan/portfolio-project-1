@@ -408,17 +408,21 @@ textarea::placeholder {
     color: #fafafa;
 }
 
-/* map */
-#map-wrapper {
-
-    height: 300px;
-    margin-bottom: 55px;
-}
+/* Map */
 
 #map {
-    height: 100%;
+    padding-top: 50px;
+    height: 425px;
     width: 100%;
     border: none;
+}
+
+.map-heading {
+    padding: 50px 0;
+}
+
+.map-heading h2 {
+    text-align: center;
 }
 
 /* Media queries */

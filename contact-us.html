@@ -22,8 +22,7 @@
 
         <nav class="navbar">
             <a href="index.html">
-                <img class="primary-icon" src="assets/images/visit-macau-logo.webp"
-                    alt="Illustrated logo featuring Macau's skyline" />
+                <img class="primary-icon" src="assets/images/visit-macau-logo.webp" alt="Illustrated logo featuring Macau's skyline">
             </a>
 
 
@@ -51,40 +50,41 @@
 
     <main>
         <section class="form-section">
-            <form class="signup-form" method="GET" action="thank-you.html" class="signup-form">
+            <form class="signup-form" method="GET" action="thank-you.html">
                 <h2>Have a question for us?</h2>
 
                 <label for="fname">First Name</label>
-                <input class="text-input" id="fname" name="first_name" type="text" placeholder="First Name..."required>
+                <input class="text-input" id="fname" name="first_name" type="text" placeholder="Enter your first name..." required>
 
                 <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" name="last_name" type="text" required>
+                <input class="text-input" id="lname" name="last_name" type="text" placeholder="Enter your last name..." required>
 
                 <label for="email">Email Address</label>
-                <input class="text-input" type="email" id="email" name="email_address" required>
+                <input class="text-input" type="email" id="email" name="email_address" placeholder="Enter your email address..." required>
 
                 <label for="question">Ask us anything</label>
                 <textarea class="text-input" id="question" name="question" placeholder="Write your message here..." required></textarea>
 
                 <label for="hear-about">Where did you hear about us?</label><br>
 
-                <label for="road">Google</label>
-                <input class="hear-about" type="radio" id="road" name="running_preference" value="road" required>
+                <label for="hear-about">Google</label>
+                <input class="hear-about" type="radio" id="road" name="running_preference" value="google" required>
 
-                <label for="trail">Magazine</label>
-                <input type="radio" id="trail" name="running_preference" value="trail" required>
+                <label for="hear-about">Magazine</label>
+                <input type="radio" id="hear-about" name="running_preference" value="magazine" required>
 
                 <label for="other">Other</label>
-                <input type="radio" id="other" name="running_preference" value="both" required>
+                <input type="radio" id="other" name="running_preference" value="other" required>
 
                 <input class="join-button" type="submit" value="Send">
             </form>
         </section>
 
-        <section id="map-wrapper">
-            <iframe id="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=335%20Alameda%20Dr.%20Carlos%20d'Assumpcao,%20Macao+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-        </section>
+        <section class="map-heading">
+            <h2>Find us at:</h2>
+            <iframe id="map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=335%20Alameda%20Dr.%20Carlos%20d'Assumpcao,%20Macao+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        
+    </section>
 
         <footer>
             <ul class="social-networks">
@@ -115,15 +115,16 @@
         <script src="https://kit.fontawesome.com/6077b4841a.js" crossorigin="anonymous"></script>
 
     </main>
+    <script>
+        const toggleButton = document.getElementById('toggle-button');
+        const naviList = document.getElementById('navi-list');
+    
+        toggleButton.addEventListener('click', () => {
+            naviList.classList.toggle('active');
+        })
+    </script>
 </body>
 
-<script>
-    const toggleButton = document.getElementById('toggle-button');
-    const naviList = document.getElementById('navi-list');
 
-    toggleButton.addEventListener('click', () => {
-        naviList.classList.toggle('active');
-    })
-</script>
 
 </html>

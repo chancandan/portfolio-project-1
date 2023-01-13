@@ -169,13 +169,48 @@ No elements overlap.
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#Unfixed-Bugs)
+Website behaved as expected on all browsers.
 
-Website was also opened on the following devices and no responsive issues were seen:
+Website was also opened on the following devices and no responsive issues were present seen:
 
-- Oyyyyyyyy1 Pro
-- Tyyyyyyyyyyyyyyyyyy
+- HP Laptop 15 -bs1xx
+- Lenovo Chromebook
 - iPhone SE
-- Samsung Galayyyyyyyyyyyyyyyyyy
+- iPhone X
+- iPhone 14 Pro Max
+- iPad (6th Generation)
+- MacBook Air
 
 ### Accessibility
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![Contact HTML Validator Results](docs/testing/contact_validator.JPG)
+
+![Avdentures HTML Validator Results](docs/testing/adventures_validator.JPG)
+
+![Home HTML Validator Results](docs/testing/home_validator.JPG)
+
+![Gallery HTML Validator Results](docs/testing/gallery_validator.JPG)
+
+![404 HTML Validator Results](docs/testing/404_validator.JPG)
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+![CSS Validator Results](docs/testing/css_validator.JPG)
+
+### Bugs
+
+Bugs were found along the way and correct, as well as countless errors which were fixed. All were a learning curve and helped better my understanding of both HTML5, CSS3 and how they interact with each other. One such example was my absence of headings in my structure. I learned the key importance of headings and that they play a key role in the structure of HTML5. The below example was easily fixed by including a h2 element inside of my section. Fix image also shown beneath.
+![Empty heading bug](docs/bugs/empty_heading_bug.JPG)<br>
+
+![Heading bug fix](docs/bugs/heading_bug_fix.JPG)
+
+### Unfixed Bugs
+Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+
+## Deployment
