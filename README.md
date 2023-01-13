@@ -183,25 +183,10 @@ Website was also opened on the following devices and no responsive issues were p
 
 ### Accessibility
 
-### Validator Testing 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](docs/testing/contact_validator.JPG)
 
-![Avdentures HTML Validator Results](docs/testing/adventures_validator.JPG)
 
-![Home HTML Validator Results](docs/testing/home_validator.JPG)
-
-![Gallery HTML Validator Results](docs/testing/gallery_validator.JPG)
-
-![404 HTML Validator Results](docs/testing/404_validator.JPG)
-
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
-
-![CSS Validator Results](docs/testing/css_validator.JPG)
 
 ### Bugs
 
@@ -215,16 +200,6 @@ Responsiveness of the website worked on all devices, screen sizes and orientatio
 
 ## Deployment
 
-### Version Control
-
-During the development of the site, When pushing code to the remote repository, I used the following git commands 
-
-```git add .``` - All files added to a staging area awaiting the commit phase.
-
-```git commit -m “specific commit message”``` - To commit changes to the local repository queue where they become ready for the push phase.
-
-```git push``` - All commited code would be then pushed to the site's repo on github.
-
 ### Deployment to Github Pages
 
 - The Visit Macau site site was deployed to GitHub pages. The following steps were taken when deploying: 
@@ -235,3 +210,36 @@ During the development of the site, When pushing code to the remote repository, 
   - After a short wait a live link will be appear in a green banner when published successfully. 
 
 Visit Macau's live link can be found here - https://chancandan.github.io/portfolio-project-1/index.html
+
+
+### Version Control
+
+During the development of the site, When pushing code to the remote repository, I used the following git commands 
+
+```git add .``` - All files added to a staging area awaiting the commit phase.
+
+```git commit -m “specific commit message”``` - To commit changes to the local repository queue where they become ready for the push phase.
+
+```git push``` - All commited code would be then pushed to the site's repo on github.
+
+
+### Validator Testing 
+
+- HTML
+  - All files returned no errors when passed through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+![index.html validator](docs/readme_images/index_validator.JPG)
+
+![gallery.html validator](docs/readme_images/gallery_validator.JPG)
+
+![contact-us.html validator](docs/readme_images/contact_us_validator.JPG)
+
+![thank-you.html validator](docs/readme_images/thank_you_validator.JPG)
+
+![404.html validator](docs/readme_images/404_validator.JPG)
+
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+  ![CSS validator](docs/readme_images/css_validator.JPG)
