@@ -196,7 +196,7 @@ I did run random Lighthouse tests at several points throughout the development o
 
 Lighthouse recommended converting images to different formats and also resizing images if their actual size wasn't required. After ahereing to these changes the site's performance improved. An example below of a lower score I had before some changes.
 
-![Old lighthouse scores for index Page](docs/readme_images/best_practice.JPG)
+![Old lighthouse scores for index Page](docs/readme_images/best_practice_83.JPG)
 
 Another example below of an old Gallery Page Lighthouse score where the mobile score on 
 
