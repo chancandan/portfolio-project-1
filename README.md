@@ -206,9 +206,9 @@ Website was also opened on the following devices and no responsive issues were p
 ### Bugs
 
 Bugs were found along the way and correct, as well as countless errors which were fixed. All were a learning curve and helped better my understanding of both HTML5, CSS3 and how they interact with each other. One such example was my absence of headings in my structure. I learned the key importance of headings and that they play a key role in the structure of HTML5. The below example was easily fixed by including a h2 element inside of my section. Fix image also shown beneath.
-![Empty heading bug](docs/bugs/empty_heading_bug.JPG)<br>
+![Empty heading bug](docs/readme_images/empty_heading_bug.JPG)<br>
 
-![Heading bug fix](docs/bugs/heading_bug_fix.JPG)
+![Heading bug fix](docs/readme_images//heading_bug_fix.JPG)
 
 ### Unfixed Bugs
 Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
