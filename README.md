@@ -243,3 +243,31 @@ During the development of the site, When pushing code to the remote repository, 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
   ![CSS validator](docs/readme_images/css_validator.JPG)
+
+  ## Credits 
+
+A variety of contributors and help went into the development this website:
+
+### Content 
+
+- The text for the 'Featured Attractions' section on the landing page was taken from the following websites: 'Macau Lifestyle', 'Travel China Guide', 'Culture Trip' and 'Wikipedia'.
+- The icons in the footer and also in the featured attractions section were taken from [Font Awesome](https://fontawesome.com/) and the Love Running video tutorial was used to implement them.
+- I learned how to code my navigation bar from a Youtube tutorial by @cemeygimedia
+- The code for styling the CSS of my hr elements from taken from ibrahimjabbari at codepen.io
+- The code for the iframe map was from Coder's Coffeehouse by Code Institute
+- My 404 page was based on Youtube tutorial by @CodingNepal
+- The idea for a Thank You for submitting page was a suggestion from my mentor, Gareth McGirr
+- The hamburger menu javascript code was taken from Stackoverflox.com
+
+
+### Media
+
+- The Logo image was created by using an image from https://depositphotos.com/ and I then used an editor in https://pixlr.com/ to write the text on the logo.
+- The hero image on the landing page was taken from tatlerasia.com
+- The images used for the gallery page were taken from this other open source site
+- Various images in the Gallery Page were taken from the www.trip.com website
+- The Grand Lisboa between apartment buildings in the gallery was taken from https://www.peakpx.com/
+- Video 1 on landing page is from https://www.youtube.com/watch?v=ZAW6vQAxbUA
+- Video 2 is from https://www.youtube.com/watch?v=A6jyJ9rbFmE
+- The image of the Galaxy hotel and casino is from zodiaclightning.com
+- The image of the girls in front of St Paul's Cathedral from taken from Macau Closer magazine
